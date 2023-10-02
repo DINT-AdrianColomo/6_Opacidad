@@ -8,9 +8,9 @@
         Title="Imagenes" Height="450" Width="800">
 
     <Grid>
-        <Image Tag="IV" x:Name="episodeIVImage" HorizontalAlignment="Left" Height="300" Margin="10,0,0,0" VerticalAlignment="Center" Width="250" Source="/episodioIV.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
-        <Image Tag="V" x:Name="episodeVIImage" HorizontalAlignment="Left" Height="300" Margin="520,0,0,0" VerticalAlignment="Center" Width="250" Source="/episodioVI.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter"  MouseLeave="Image_MouseLeave"/>
-        <Image Tag="VI" x:Name="episodeVImage" HorizontalAlignment="Left" Height="300" VerticalAlignment="Center" Width="250" Source="/episodioV.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" Margin="265,0,0,0"/>
+        <Image x:Name="episodeIVImage" HorizontalAlignment="Left" Height="300" Margin="10,0,0,0" VerticalAlignment="Center" Width="250" Source="/episodioIV.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <Image x:Name="episodeVIImage" HorizontalAlignment="Left" Height="300" Margin="520,0,0,0" VerticalAlignment="Center" Width="250" Source="/episodioVI.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter"  MouseLeave="Image_MouseLeave"/>
+        <Image x:Name="episodeVImage" HorizontalAlignment="Left" Height="300" VerticalAlignment="Center" Width="250" Source="/episodioV.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" Margin="265,0,0,0"/>
 
     </Grid>
 

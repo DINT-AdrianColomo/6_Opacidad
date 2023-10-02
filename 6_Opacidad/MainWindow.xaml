@@ -1,0 +1,18 @@
+﻿<Window x:Class="_6_Opacidad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6_Opacidad"
+        mc:Ignorable="d"
+        Title="Imagenes" Height="450" Width="800">
+
+    <Grid>
+        <Image Tag="IV" x:Name="episodeIVImage" HorizontalAlignment="Left" Height="300" Margin="10,0,0,0" VerticalAlignment="Center" Width="250" Source="/episodioIV.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <Image Tag="V" x:Name="episodeVIImage" HorizontalAlignment="Left" Height="300" Margin="520,0,0,0" VerticalAlignment="Center" Width="250" Source="/episodioVI.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter"  MouseLeave="Image_MouseLeave"/>
+        <Image Tag="VI" x:Name="episodeVImage" HorizontalAlignment="Left" Height="300" VerticalAlignment="Center" Width="250" Source="/episodioV.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" Margin="265,0,0,0"/>
+
+    </Grid>
+
+</Window>
+    

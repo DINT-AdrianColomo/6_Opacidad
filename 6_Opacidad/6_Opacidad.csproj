@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_6_Opacidad</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>folder_open_transparent.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="episodioIV.jpg" />
+    <None Remove="episodioV.jpg" />
+    <None Remove="episodioVI.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="folder_open_transparent.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="episodioIV.jpg" />
+    <Resource Include="episodioV.jpg" />
+    <Resource Include="episodioVI.jpg" />
+  </ItemGroup>
+
+</Project>
